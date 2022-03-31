@@ -342,7 +342,7 @@
                       </fieldset>
                   {%- endfor -%}
                   <div>
-                  	{{product.first_available_variant.metafields.suggested.value}}
+                  	{{product.first_available_variant}}
                   </div>
                   <script type="application/json">
                     {{ product.variants | json }}

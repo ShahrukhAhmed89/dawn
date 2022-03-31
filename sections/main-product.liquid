@@ -343,7 +343,7 @@
                   {%- endfor -%}
                   <div>
                     {{product.selected_or_first_available_variant.title}}
-                  	{{product.selected_variant.metafields.suggested.top.value}}
+                  	{{product.selected_or_first_available_variant.metafields.suggested.top.value}}
                                     {% render 'card-product',
                   card_product: product.first_available_variant.metafields.suggested.top.value,
 

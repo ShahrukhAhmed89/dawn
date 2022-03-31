@@ -345,7 +345,7 @@
                     {{product.selected_or_first_available_variant.title}}
                   	{{product.selected_or_first_available_variant.metafields.suggested.top.value}}
                                     {% render 'card-product',
-                  card_product: product.first_available_variant.metafields.suggested.top.value,
+                  card_product: product.selected_or_first_available_variant.metafields.suggested.top.value,
 
                 %}
                   </div>

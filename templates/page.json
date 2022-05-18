@@ -9,16 +9,6 @@
     },
     "16510442664096f5d9": {
       "type": "apps",
-      "blocks": {
-        "903f0096-65e2-4e37-bbfa-ce2052427b05": {
-          "type": "shopify:\/\/apps\/mahina-event-calendar-app\/blocks\/app-block\/e11e7f2a-2a3e-496c-81db-93ba18da671c",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "903f0096-65e2-4e37-bbfa-ce2052427b05"
-      ],
       "settings": {
         "include_margins": false
       }
